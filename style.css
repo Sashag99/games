@@ -1,0 +1,21 @@
+body{
+    background-image:url(http://www.kartinkijane.ru/pic/201410/2560x1440/kartinkijane.ru-71317.jpg);
+    background-repeat: no-repeat;
+}
+.fixed {
+    width: 35vh;
+    top: 5vh;
+    right: 10vh;
+}
+.command{
+    position: fixed;
+    top: 5vh;
+    right: 10vh;
+
+}
+.command ul li{
+    text-decoration: none;
+    list-style: none;
+    background-color: rgba(255,255,255,0.6 );
+    font-size: 20px;
+}
