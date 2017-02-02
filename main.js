@@ -25,23 +25,23 @@ function proccessCommand(command) {
     // proccess command
     switch (command) {
         case 'north':
+             y += 1;
             game.innerHTML += Nik + " is going to north <br> Your position" +"("+x+";"+y+") <br>";
-            y += 1;
             gold += 3;
             break;
         case 'south':
-            game.innerHTML += Nik + " is going to south <br> Your position" +"("+x+";"+y+") <br>";
             y += -1;
+            game.innerHTML += Nik + " is going to south <br> Your position" +"("+x+";"+y+") <br>";
             gold += 3;
             break;
         case 'west':
-            game.innerHTML += Nik + " is going to west <br> Your position" +"("+x+";"+y+") <br>";
             x += -1;
+            game.innerHTML += Nik + " is going to west <br> Your position" +"("+x+";"+y+") <br>";
             gold += 3;
             break;
         case 'east':
-            game.innerHTML += Nik + " is going to east <br> Your position" +"("+x+";"+y+") <br>";
             x += 1;
+            game.innerHTML += Nik + " is going to east <br> Your position" +"("+x+";"+y+") <br>";
             gold += 3;
             break;
         case 'hello':
